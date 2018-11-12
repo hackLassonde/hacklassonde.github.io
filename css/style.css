@@ -1,43 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet");
+
+/* NAVBAR */
 .nav-grid {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .nav-bar {
-    position: fixed;
-    background-color: #FFFFFF;
-    width: 100%;
-    z-index: 10;
-    opacity: 0.8;
-  }
-  .nav-img {
-    max-width: 100px;
-    margin: 10px;
-    display: inline-block;
-    float: left;
-  }
-  .nav-link {
-    text-decoration: none;
-    float: right;
-    opacity: 0.7;
-    transition: 0.5s;
-  }
-  .nav-link:hover {
-    opacity: 1;
-    transition: 0.1s;
-  }
-  .nav-title {
-    margin: 20px;
-    margin-left: 5px;
-    text-align: right;
-    color: #444444;
-  }
-  .nav-title-large {
-    margin: 20px;
-    margin-left: 5px;
-    text-align: right;
-    color: #444444;
-    text-decoration: none;
-    float: left;
-    opacity: 0.7;
-    transition: 0.5s;
-  }
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-bar {
+  position: fixed;
+  background-color: #FFFFFF;
+  width: 100%;
+  z-index: 10;
+  opacity: 0.8;
+}
+
+.nav-img {
+  max-width: 100px;
+  margin: 10px;
+  display: inline-block;
+  float: left;
+}
+
+.nav-link {
+  text-decoration: none;
+  float: right;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  transition: 0.1s;
+}
+
+.nav-title {
+  margin: 20px;
+  margin-left: 5px;
+  text-align: right;
+  color: #444444;
+}
+
+.nav-title-large {
+  margin: 20px;
+  margin-left: 5px;
+  text-align: right;
+  color: #444444;
+  text-decoration: none;
+  float: left;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+/* PAGE CONTENT */
+.content {
+  padding: 80px 2.5% 5% 2.5%;
+  max-width: 980px;
+  width: 95%;
+}
+
+/* BASIC ELEMENTS */
+h1 {
+  font-size: 3.7em;
+}
+
+p {
+  font-size: 1.3em;
+}
