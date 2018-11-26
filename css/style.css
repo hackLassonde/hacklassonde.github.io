@@ -56,9 +56,32 @@
   padding: 80px 2.5% 5% 2.5%;
   max-width: 980px;
   width: 95%;
+  height: 100%;
+  color: #444444;
+  margin: 0 auto;
+}
+
+/* CARDS */
+.landing-card {
+  background: rgba(255,255,255,0.8);
+  border-radius: 30px;
+  padding: 50px;
+  text-align: center;
+
+  /* Box h & v centering code from w3 */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* BASIC ELEMENTS */
+body {
+  background: url(./images/sticker_1.jpg) no-repeat center center fixed;
+}
+
 h1 {
   font-size: 3.7em;
 }
