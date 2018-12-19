@@ -4,6 +4,29 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+/* HackLassonde's CSS */
+
+.extra-containter {
+  background-color: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.map iframe {
+  width: 1000px;
+  display: inline-block;
+}
+
+.map {
+  text-align: center;
+}
+
+.faq-list {
+  text-align: left;
+}
+
+/***********************/
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
