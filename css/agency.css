@@ -4,28 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
-/* HackLassonde's CSS */
-
-.extra-containter {
-  background-color: rgba(0,0,0,0.6);
-  padding: 30px;
-  border-radius: 25px;
+#white {
+  color: white;
 }
-
-.map iframe {
-  width: 1000px;
-  display: inline-block;
-}
-
-.map {
-  text-align: center;
-}
-
-.faq-list {
-  text-align: left;
-}
-
-/***********************/
 
 body {
   overflow-x: hidden;
@@ -188,7 +169,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #003366;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -618,7 +599,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: #003366;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -716,3 +697,37 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+/* HackLassonde's CSS */
+
+.extra-containter {
+  background-color: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.map iframe {
+  width: 1000px;
+  display: inline-block;
+}
+
+.map {
+  text-align: center;
+}
+
+.faq-list {
+  text-align: left;
+}
+
+h4 {
+  padding-bottom: 20px;
+}
+
+#white {
+  color: white;
+}
+
+.button-space {
+  margin-top: 50px;
+}
+/***********************/
