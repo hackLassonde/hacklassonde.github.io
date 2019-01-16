@@ -730,4 +730,18 @@ h4 {
 .button-space {
   margin-top: 50px;
 }
+
+/* Straight Border */
+.team-pic_1 {
+  margin: 0 auto;
+  border: 20px black solid;
+}
+
+/* Drop Shadow */
+.team-pic_2 {
+  margin: 0 auto;
+  border: 3px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
 /***********************/
