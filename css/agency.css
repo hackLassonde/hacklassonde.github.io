@@ -40,11 +40,11 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #e9ecef;
 }
 
 a:hover {
-  color: #fec503;
+  color: #6791cb;
 }
 
 .text-primary {
@@ -748,6 +748,7 @@ h4 {
 
 .map-container {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .map-info {
