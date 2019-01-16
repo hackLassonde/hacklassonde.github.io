@@ -722,12 +722,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .map iframe {
-  width: 1000px;
   display: inline-block;
 }
 
 .map {
   text-align: center;
+  flex-grow: 2;
 }
 
 .faq-list {
@@ -746,6 +746,20 @@ h4 {
   margin-top: 50px;
 }
 
+.map-container {
+  display: flex;
+}
+
+.map-info {
+  padding: 40px;
+  width: 30%;
+}
+
+.map-info h1 {
+  /*text-align: center;*/
+  padding-bottom: 30px;
+}
+
 /* Straight Border */
 .team-pic_1 {
   margin: 0 auto;
@@ -755,7 +769,7 @@ h4 {
 /* Drop Shadow */
 .team-pic_2 {
   margin: 0 auto;
-  border: 3px solid;
+  border: 3px solid #444444;
   padding: 10px;
   box-shadow: 5px 10px 8px #888888;
 }
