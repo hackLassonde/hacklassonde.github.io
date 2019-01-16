@@ -779,4 +779,68 @@ h4 {
   display: inline;
   vertical-align: middle;
 }
+
+/* Sponsor Section */
+#sponsors {
+  background-color: #e9ecef;
+}
+.sponsor-heading {
+  color: #002f47;
+  padding-bottom: 30px;
+}
+.sponsor-subheading {
+  color: #002f47;
+  font-size: 30px; 
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.sponsor-q {
+  padding-top:100px;
+  padding-bottom: 0px;
+}
+.sponsor-holder-partner {
+  margin-bottom: 100px;
+}
+.sponsor-img-partner {
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+}
+.sponsor-holder-gold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 275px;
+  margin: 30px;
+}
+.sponsor-img-gold {
+  display: block;
+  margin: 0 auto;
+  max-width: 350px;
+}
+.sponsor-holder-silver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 30px;
+}
+.sponsor-holder-bronze {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 150px;
+  margin:30px;
+}
+.sponsor-img-silver {
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  max-width: 200px;
+}
+.sponsor-img-bronze {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+}
 /***********************/
