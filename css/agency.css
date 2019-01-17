@@ -727,7 +727,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .map {
   text-align: center;
-  flex-grow: 2;
+  flex: 1 1 700px;
 }
 
 .faq-list {
@@ -748,12 +748,13 @@ h4 {
 
 .map-container {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 
 .map-info {
   padding: 40px;
-  width: 30%;
+  flex: 1 1 30%;
 }
 
 .map-info h1 {
