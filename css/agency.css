@@ -776,6 +776,12 @@ h4 {
   max-width: 100%;
 }
 
+#sponsor-button {
+  background-color: #002f47;
+  border-color: #002f47;
+  color: #e9ece9;
+}
+
 
 /* Header Img */
 .header-cloud {
