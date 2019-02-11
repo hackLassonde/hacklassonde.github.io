@@ -793,6 +793,47 @@ h4 {
   margin: 0 auto;
 }
 
+/* Stars */
+#stars-1 {
+  border: 1px solid red;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+#stars-2 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.star-bg-1 {
+  background-image: url("../img/map-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+.star-bg-2 {
+  background-image: url("../img/node_graphic.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+.star-bg-1-show {
+  opacity: 1;
+}
+
+.star-bg-2-show {
+  opacity: 1;
+}
+
 /* Node Img */
 
 
