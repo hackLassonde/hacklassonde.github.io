@@ -795,12 +795,12 @@ h4 {
 
 /* Stars */
 #stars-1 {
-  border: 1px solid red;
   width: 100vw;
   height: 100vh;
   position: absolute;
   top:0;
   left: 0;
+  z-index: -1;
 }
 
 #stars-2 {
@@ -809,10 +809,11 @@ h4 {
   position: absolute;
   top:0;
   left: 0;
+  z-index: -1;
 }
 
 .star-bg-1 {
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/stars_1.png");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0;
@@ -820,7 +821,7 @@ h4 {
 }
 
 .star-bg-2 {
-  background-image: url("../img/node_graphic.png");
+  background-image: url("../img/stars_2.png");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0;
