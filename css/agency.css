@@ -774,7 +774,6 @@ h4 {
   margin-bottom: 50px;
   max-width: 100%;
   flex-grow: 1;
-  max-height: 200px;
 }
 
 .row .row {
@@ -841,6 +840,8 @@ h4 {
   padding: 20px;
   border-radius: 100px;
   max-width: 100%;
+  width: 600px;
+  margin: 0 auto;
 }
 
 
